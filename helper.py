@@ -1,4 +1,4 @@
-"""def decoreer(tekst=""):
+def decoreer(tekst=""):
     lengte = len(tekst) + 4
     print()
     print(lengte * "*")
@@ -16,7 +16,7 @@ def fooi_pp(bedrag,personen):
 b = int(input("Welk bedrag zit er in de pooienpot? "))
 p = int(input("Over hoeveel mensen moet de pot verdeeld worden? "))
 
-print(fooi_pp(b,p))"""
+print(fooi_pp(b,p))
 
 def onderstreep(tekst=""):
     uit = []
